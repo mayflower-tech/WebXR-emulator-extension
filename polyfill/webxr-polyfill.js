@@ -4950,32 +4950,32 @@ to native implementations of the API.`;
                   }
                 };
                 let valveIndex = {
-                    mapping: 'xr-standard',
-                    displayProfiles: {
-                        'Valve Index': ['valve-index', 'generic-trigger-squeeze-thumbstick']
-                    },
-                    profiles: ['valve-index', 'generic-trigger-squeeze-thumbstick'],
-                    axes: {
-                        length: 4,
-                        0: 2,
-                        1: 3,
-                        2: 0,
-                        3: 1
-                    },
-                    buttons: {
-                        length: 7,
-                        0: 1,
-                        1: 2,
-                        2: null,
-                        3: 0,
-                        4: 3,
-                        5: 4,
-                        6: null
-                    },
-                    gripTransform: {
-                        position: [0, -0.02*2, 0.04*2, 1],
-                        orientation: [Math.PI * 0.11, 0, 0, 1]
-                    }
+                  mapping: 'xr-standard',
+                  displayProfiles: {
+                    'Valve Index': ['valve-index', 'generic-trigger-squeeze-thumbstick']
+                  },
+                  profiles: ['valve-index', 'generic-trigger-squeeze-thumbstick'],
+                  axes: {
+                    length: 4,
+                    0: 2,
+                    1: 3,
+                    2: 0,
+                    3: 1
+                  },
+                  buttons: {
+                    length: 7,
+                    0: 1,
+                    1: 2,
+                    2: null,
+                    3: 0,
+                    4: 3,
+                    5: 4,
+                    6: null
+                  },
+                  gripTransform: {
+                    position: [0, -0.04, 0.08, 1],
+                    orientation: [Math.PI * 0.11, 0, 0, 1]
+                  }
                 };
                 let openVr = {
                   mapping: 'xr-standard',
